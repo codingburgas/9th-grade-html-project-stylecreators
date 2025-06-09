@@ -6,10 +6,52 @@
     <link rel="icon" href="DESIGN/пожар.png" type="image/png">
     <title>РДПБЗН - Бургас - Информация</title>
     <link rel="stylesheet" href="CSS/global.css">
-    <link rel="stylesheet" href="CSS/map.css">
+    <link rel="stylesheet" href="CSS/information.css">
     <link rel="stylesheet" href="CSS/NavBar.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""/>
+     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
+    <body>
+  
+        <header>
+        <div class="container">
+            <img src = "DESIGN/пожар.png" alt = "пожар" class="header img">
+            <h1><a href="mainpage.html">Пожарна безопасност Бургас</a></h1>
+            <nav>
+                <ul>
+                     <li><a href="about.html">За нас</a></li>
+                    <li><a href="service.html">Отговорности</a></li>
+                    <li><a href="news.html">Новини</a></li>
+                    <li><a href ="map.html">Активни пожари</a></li>
+                    <li><a href ="information.html">Информация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="fire-info" class="fire-info">
+        <div class="container">
+            <h2>Подробна Информация и статиски относно нас и пожари</h2>
+            <h3>Информация относно пожари през 2023 година</h3>
+            <p>Област Бургас отчита 434 пожара, причинили материални щети, ранени или загинали</p>
+            <p>Няма пълен отворен регистър „за всеки“ пожар, но медии и БНР съобщават за няколко значителни инцидента.</p>
+            <h3> Най-големите пожари през 2023 – топ 3</h3>
+            <h4>1. Пожар край с. Белеврен (август 2023)</h4>
+            <p>Един от най-големите включване на ресурси: горски район, труднодостъпен за техникам, гасене „на ръка“ .</p>
+            <p>Проблемен – силен, променлив вятър, участие на множество екипи.</p>
+            <h4>2. Пожар, обхванал 36 000 дка (юли 2023)</h4>
+            <p>Гасен от 12 пожарни коли и 29 огнеборци, до късно през нощта</p>
+            <p>Обхванал широк терен – храсти и гори.</p>
+            <h4>3. Пожар в община Средец (юни 2023)</h4>
+            <p>Води се от ст. инспектор Валентин Великов, използвани хеликоптери, военни, доброволци и над 10 пожарни коли</p>
+            <p>Определен като „голям горски пожар“, с риск за населени места, но хора и структури са спасени.</p>
+            <canvas id="firesChart" width="90%" height="20%"></canvas>
+            <script src="JAVASCRIPT/infoChart.js"></script>
+        </div>
+        
+    </section>
+    
+    </body>
 </html>
