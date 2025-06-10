@@ -7,14 +7,20 @@
 .service-item {
     background: #f9f9f9;
     padding: 20px;
+    margin: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     text-align: center;
     transition: transform 0.3s ease;
 }
 
+.service-item p {
+    font-size: 17px;
+}
+
 .service-item:hover {
     transform: translateY(-5px);
+    transform: scale(1.2);
 }
 
 .service-item h3 {

@@ -39,10 +39,15 @@ section h2 {
     text-align: center;
     margin-bottom: 30px;
     color: #000c5b;
+    font-size: 45px;
 }
 
 section h3{
     color: #000c5b;
+    font-size: 25px;
+}
+section p {
+    font-size: 20px;
 }
 
 footer {

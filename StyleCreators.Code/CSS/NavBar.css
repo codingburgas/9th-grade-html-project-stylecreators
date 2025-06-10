@@ -7,11 +7,23 @@ header ul {
     margin: 0;
     padding: 0;
     list-style: none;
+    
 }
 
 header li {
     display: inline;
     padding: 0 15px;
+    background-color: rgb(9, 9, 151);
+    padding: 20px;
+    border-radius: 25%;
+}
+
+header h1:hover {
+    font-style: italic;
+    transition: background-color 1s ease;
+    color: #ffffff;
+    font-weight: bold;
+    
 }
 
 header a {
@@ -19,12 +31,17 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
+    
 }
 
-header a:hover {
+header li:hover {
+    background-color: rgb(57, 57, 206);
+    transition: background-color 0.5s ease;
     color: #ffffff;
     font-weight: bold;
 }
+
+
 
 @media (max-width: 768px) {
     header nav ul li {
@@ -37,6 +54,13 @@ header img {
     position: absolute;
     top: 0;
     left: 0;
-    height: 125px;
-    width: 125px;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(9, 9, 151);
+    border-radius: 25%;
+    margin: 0.5%;
+}
+header img:hover {
+    background-color: rgb(57, 57, 206);
+    transition: background-color 0.5s ease;
 }
