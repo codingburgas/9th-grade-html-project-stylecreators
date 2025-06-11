@@ -17,7 +17,7 @@ function DarkMode() {
         footer: {
             background: '#333',
             color: '#fff'
-        }
+        },
     };
 
     const darkStyles = {
@@ -36,7 +36,7 @@ function DarkMode() {
         footer: {
             background: '#222',
             color: '#fff'
-        }
+        },
     };
 
     let isDarkMode = false;

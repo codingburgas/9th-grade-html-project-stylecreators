@@ -14,21 +14,6 @@
     margin-bottom: 20px;
 }
 
-#emergencyButton {
-    background: #ff8c00;
-    color: #fff;
-    border: none;
-    padding: 15px 30px;
-    font-size: 1.2em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-#emergencyButton:hover {
-    background: #ff8c00;
-}
-
 @media (max-width: 768px) {
     .hero h2 {
         font-size: 2em;
@@ -74,6 +59,8 @@ img {
     gap: 20px;
 }
 
+
+
 .Statistics,
 .Active_Fires,
 .Emergency {
@@ -88,6 +75,16 @@ img {
     text-align: center;
 }
 
+.Statistics:hover,
+.Active_Fires:hover{
+    background-color: #c10000;
+}
+
 .Emergency {
     color: #c10000;
+}
+
+.Emergency:hover {
+    background-color: #c10000;
+    color: white;
 }
