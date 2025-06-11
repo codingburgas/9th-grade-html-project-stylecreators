@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <title>Регистрация - Пожарна безопасност Бургас</title>
+  <link rel="stylesheet" href="../CSS/global.css" />
+  <link rel="stylesheet" href="../CSS/mainpage.css" />
+  <link rel="stylesheet" href="../CSS/NavBar.css" />
+  <link rel="stylesheet" href="../CSS/Log_in.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="../index.html"><img src="../images/fire.png" alt="fire" class="header img" /></a>
+      <h1><a href="https://mvr.bg/">Пожарна безопасност Бургас</a></h1>
+      <nav>
+        <ul>
+          <button id="changeColorButton">Тема🔘</button>
+          <script src="../JAVASCRIPT/darkmodeButton.js"></script>
+          <li><a href="about.html">За нас</a></li>
+          <li style="border-radius: 20%;"><a href="service.html">Отговорности</a></li>
+          <li><a href="news.html">Новини</a></li>
+          <li><a href="information.html">Инфо</a></li>
+          <li><a href="forum.html">Акаунт</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-login-wrapper">
+    <div class="login-container">
+      <h2>Регистрация</h2>
+      <form action="#" method="POST">
+        <label for="name">Име</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Парола</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Потвърди парола</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+
+        <button type="submit" class="Log">Регистрирай се</button>
+      </form>
+      <div class="footer-text">
+        Вече имате акаунт? <a href="forum.html">Вход</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <h2>Контакти</h2>
+      <p><strong>Адрес:</strong> ул. "Индустриална" 1, гр. Бургас, 8000</p>
+      <p><strong>Телефон:</strong> 056 / 820 000</p>
+      <p><strong>Дежурен телефон (спешни случаи):</strong> 112</p>
+      <p><strong>Имейл:</strong> rdpbsn/burgas@gmail.bg</p>
+      <h3>Работно Време</h3>
+      <p>Административен отдел: Понеделник - Петък, 09:00 - 17:00 ч.</p>
+      <p>Дежурни екипи: 24 часа в денонощието, 7 дни в седмицата</p>
+    </div>
+    <img src="../images/Team_logo.png" alt="logofd" />
+    <div class="container">
+      <p>&copy; 2025 Пожарна безопасност Бургас. Всички права запазени.</p>
+    </div>
+  </footer>
+
+  <script src="../javascript/NavBar.js"></script>
+</body>
+</html>
