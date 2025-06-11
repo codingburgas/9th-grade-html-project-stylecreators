@@ -44,3 +44,50 @@ img {
     height: 100px;
     width: 100px;
 }
+
+.Background {
+    background-color: #e1d3d3;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin: 50px auto;
+    max-width: 1000px;
+}
+
+.info-buttons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.info-buttons img {
+    height: 400px;
+    width: 400px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Statistics,
+.Active_Fires,
+.Emergency {
+    background-color: #ff8c00;
+    padding: 20px 30px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    border: solid 4px #a55d00;
+    cursor: pointer;
+    text-align: center;
+}
+.Emergency {
+    color: #c10000;
+}
+

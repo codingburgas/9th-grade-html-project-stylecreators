@@ -21,11 +21,10 @@
                 <ul>
                     <button id="changeColorButton">Light/Dark mode🔘</button>
                     <script src="JAVASCRIPT/darkmodeButton.js"></script>
-                    <li><a href="about.html">За нас</a></li>
-                    <li style="border-radius: 20%;"><a href="service.html">Отговорности</a></li>
-                    <li><a href="news.html">Новини</a></li>
-                    <li style="border-radius: 20%;"><a href ="map.html">Активни пожари</a></li>
-                    <li><a href ="information.html">Информация</a></li>
+                    <li><a href="HTML/about.html">За нас</a></li>
+                    <li style="border-radius: 20%;"><a href="HTML/service.html">Отговорности</a></li>
+                    <li><a href="HTML/news.html">Новини</a></li>
+                    <li><a href ="HTML/information.html">Инфо</a></li>
                 </ul>
             </nav>
         </div>
@@ -35,12 +34,19 @@
         <div class="container">
             <h2>Вашата безопасност е наш приоритет</h2>
             <p>Готови сме да реагираме на всяка ситуация 24/7</p>
-            <button id="emergencyButton">ПОДАЙ СИГНАЛ ТУК</button>
-
-            <h2>Добре дошли!</h2>
-            <p>Добре дошли в официалния уебсайт на регионална дирекция "Пожарна безопасност и защита на населението" - Бургас. ние сме тук, за да гарантираме вашата сигурност и да осигурим бърза и ефективна помощ при всякакви извънредни ситуации.</p>
-            <p>Разгледайте нашите секции, за да научите повече за мисията ни, предлаганите услуги и последните новини от нашата дейност.</p>
         </div>
+        <div class="Background">
+    <div class="info-buttons">
+        <div class="flame_image">
+            <img src="images/flame.png" alt="Flame">
+        </div>
+        <div class="buttons">
+            <input type="button" class="Active_Fires" value="Активни пожари" onclick="location.href='/HTML/map.html'">
+            <input type="button" class="Emergency" value="СПЕШЕН СЛУЧАЙ" onclick="location.href='/HTML/Forum.html'">
+            <input type="button" class="Statistics" value="Статистики" onclick="location.href='/HTML/Forum.html'">
+        </div>
+    </div>
+</div>
     </section>
      <footer>
          <div class="container">
@@ -53,7 +59,7 @@
             <p>Административен отдел: Понеделник - Петък, 09:00 - 17:00 ч.</p>
             <p>Дежурни екипи: 24 часа в денонощието, 7 дни в седмицата</p>
         </div>
-        <img src="images/logofd.png" alt="logofd">
+        <img src="images/Team_logo.png" alt="logofd">
         <div class="container">
             <p>&copy; 2025 Пожарна безопасност Бургас. Всички права запазени.</p>
         </div>

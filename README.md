@@ -1,4 +1,7 @@
-# Style Creators
+<h1 align="center"> Style Creators </h1>
+<p align="center">
+  <img src="images/Team_logo.png" alt="Style Creators Logo" width="45%">
+</p>
 
 ## Team Members
 <ul>
