@@ -1,7 +1,9 @@
 .about p {
     text-align: justify;
     margin-bottom: 15px;
-}img {
-    height: 100px;
-    width: 100px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
 }

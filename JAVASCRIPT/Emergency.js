@@ -1,8 +1,8 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     const emergencyButton = document.getElementById('emergencyButton');
 
     if (emergencyButton) {
-        emergencyButton.addEventListener('click', function() {
+        emergencyButton.addEventListener('click', function () {
             alert('Каква е причината да подадете вашият сигнал?');
 
             let a = prompt(

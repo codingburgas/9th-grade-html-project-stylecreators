@@ -32,7 +32,7 @@ section {
     padding: 40px 0;
     margin-bottom: 20px;
     background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -42,10 +42,11 @@ section h2 {
     font-size: 45px;
 }
 
-section h3{
+section h3 {
     color: #000c5b;
     font-size: 25px;
 }
+
 section p {
     font-size: 20px;
 }
@@ -59,6 +60,7 @@ footer {
 }
 
 @media (max-width: 768px) {
+
     header h1,
     header nav {
         float: none;

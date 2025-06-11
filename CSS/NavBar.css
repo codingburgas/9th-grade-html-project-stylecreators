@@ -7,7 +7,7 @@ header ul {
     margin: 0;
     padding: 0;
     list-style: none;
-    
+
 }
 
 header li {
@@ -23,7 +23,7 @@ header h1:hover {
     transition: background-color 1s ease;
     color: #ffffff;
     font-weight: bold;
-    
+
 }
 
 header a {
@@ -31,7 +31,7 @@ header a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 20px;
-    
+
 }
 
 header li:hover {
@@ -60,6 +60,7 @@ header img {
     border-radius: 25%;
     margin: 0.5%;
 }
+
 header img:hover {
     background-color: rgb(57, 57, 206);
     transition: background-color 0.5s ease;
