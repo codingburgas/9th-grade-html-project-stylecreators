@@ -1,4 +1,3 @@
-# 9-grade-html-css-js-projectAdd commentMore actions
 # Style Creators
 
 ## Team Members
@@ -27,5 +26,5 @@
 ## Presenting 
 <a href="#" target="_blank"> <img src="https://img.icons8.com/fluency/48/000000/microsoft-word-2019.png" alt="Word icon" width=20px /> Documentation </a>
 
-<a href="#" target="_blank">Add commentMore actions
+<a href="https://codingburgas-my.sharepoint.com/:p:/g/personal/kgdaradjanov23_codingburgas_bg/EdzwUkv-2SJCm6gk63LTpy8BnRpievGmeZhSMz0kJaDnLA" target="_blank">
 <img src="https://img.icons8.com/fluency/48/000000/microsoft-powerpoint-2019.png" alt="PowerPoint icon" width=20px /> Presentation </a>
